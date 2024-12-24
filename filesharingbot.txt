@@ -1,0 +1,6 @@
+[23-Dec-24 21:13:09 - INFO] - bot - Bot Running..!
+
+Created by 
+https://t.me/ultroid_official
+[23-Dec-24 21:19:18 - INFO] - root - Stop signal received (SIGINT). Exiting...
+[23-Dec-24 21:19:18 - INFO] - bot - Bot stopped.
