@@ -61,8 +61,8 @@ class Bot(Client):
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/ultroid_official")
         self.LOGGER(__name__).info(f""" \n\n       
-(っ◔◡◔)っ ♥ k-filez_bot 2.0 ♥
-░╚════╝░░╚════╝░╚═════╝░╚══════╝
+(っ◔◡◔)っ ♥ Dramafilez ♥
+  ░╚════╝░░╚════╝░╚═════╝░
                                           """)
         self.username = usr_bot_me.username
         #web-response
