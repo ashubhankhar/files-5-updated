@@ -22,11 +22,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6710996831"))
 PORT = os.environ.get("PORT", "8000")
 
 #Database 
+# Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
+# DB_URI = "mongodb+srv://wicidev806:b9zm6GzbC7Y5lHWR@cluster0.qsx9a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+#Database 
+DB_URI = "mongodb+srv://cluster0:qwertyuiop@cluster0.s7zfm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-# DB_URI = "mongodb+srv://awt:awt@cluster0.ltdwktu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-#Database 
-DB_URI = "mongodb+srv://holonef337:EWUvS8XJvyb54X9K@cluster0.suqd9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-#Database 
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #Shortner (token system) 
@@ -38,6 +38,7 @@ SHORTLINK_API = os.environ.get("SHORTLINK_API", "729c7a6ef2e069220e20c66a38753bc
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/korean_dramas_bot_Dramafilez/9")
+
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002082897235"))
